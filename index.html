@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频解析播放器</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-play-circle"></i>
+                <h1>全网视频解析</h1>
+            </div>
+            <div class="search-box">
+                <input type="text" id="videoUrl" placeholder="请输入视频链接...">
+                <button onclick="parseVideo()">
+                    <i class="fas fa-play"></i>
+                    <span>解析播放</span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <div class="player-container" id="playerContainer">
+                <iframe id="player" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </main>
+
+        <div class="platform-bar">
+            <div class="platform-item">
+                <i class="fab fa-bilibili"></i>
+                <span>哔哩哔哩</span>
+            </div>
+            <div class="platform-item">
+                <i class="fas fa-tv"></i>
+                <span>腾讯视频</span>
+            </div>
+            <div class="platform-item">
+                <i class="fas fa-tv"></i>
+                <span>爱奇艺</span>
+            </div>
+            <div class="platform-item">
+                <i class="fas fa-tv"></i>
+                <span>优酷</span>
+            </div>
+            <div class="platform-item">
+                <i class="fas fa-tv"></i>
+                <span>芒果TV</span>
+            </div>
+            <div class="platform-item">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
