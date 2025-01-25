@@ -48,6 +48,9 @@ git clone git@github.com:aiyangtongxue/VideoHub.git
 ## 在线演示
 访问 [VideoHub在线演示](https://aiyangtongxue.github.io/VideoHub)
 
+### 演示截图
+![VideoHub演示截图](https://github.com/aiyangtongxue/VideoHub/blob/main/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20250126071737.png)
+
 ## 注意事项
 - 本工具仅供学习交流使用
 - 请遵守相关法律法规，不得用于任何商业用途
